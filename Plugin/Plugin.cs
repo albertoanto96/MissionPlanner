@@ -18,7 +18,7 @@ namespace MissionPlanner.Plugin
     {
         public Assembly Assembly = null;
 
-        public PluginHost Host { get; internal set; }
+        public PluginHost Host { get; set; }
 
         public abstract string Name { get; }
         public abstract string Version { get; }
